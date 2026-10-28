@@ -1,6 +1,6 @@
 Web sitesi haftalık videolar drive linki: https://drive.google.com/drive/folders/1_IM6HPAVYrd6N5-Ekb2JsYtEGFuVK3kw
 
-Site nasıl çalışıyor?
+#Site nasıl çalışıyor?
 
 Site sadece HTML, CSS ve JavaScript ile yazılıyor; sunucu yok. Tüm sayfalarda aynı header ve footer bulunuyor.
 
