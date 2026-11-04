@@ -63,7 +63,7 @@
 
                 <article id="kariyer-fuari-duyuru" data-kategori="etkinlik">
                     <p><time datetime="2026-11-03">03.11.2026</time> · Etkinlik</p>
-                    <h3>Kariyer Fuarı, 21 Kasım'da TED Ankara Koleji'nde</h3>
+                    <h3>Kariyer Fuarı, 21 Kasım'da TED Ankara Koleji'nde!</h3>
                     <p>TED Ankara Koleji Mezunlar Derneğinin davetiyle Kariyer Fuarı'nda yerimizi alıyoruz. Farklı sektörlerden kurum ve temsilcilerle tanışmak, yeni bağlantılar kurmak ve kariyer fırsatlarını keşfetmek isteyen herkesi bekleriz.</p>
                     <a href="etkinlikler.html#kariyer-fuari">Etkinlik detayları →</a>
                 </article>
@@ -72,7 +72,7 @@
 
                 <article id="bilgi-güncelleme" data-kategori="hatirlatma">
                     <p><time datetime="2026-10-30">30.10.2026</time> · Hatırlatma</p>
-                    <h3>Bilgi formunun doldurulması</h3>
+                    <h3>Bilgi formunun doldurulması!</h3>
                     <p>TEB Ankara Bölge WhatsApp grubunda paylaşılan bilgi formunu, 5 Kasım Perşembe günü saat 12.00'ye kadar doldurmayı unutmayınız.</p>
                 </article>
 
@@ -80,7 +80,7 @@
             
                 <article id="kasim-takvimi" data-kategori="etkinlik">
                     <p><time datetime="2026-10-27">27.10.2026</time> · Etkinlik</p>
-                    <h3>Kasım etkinlik takvimi yayında</h3>
+                    <h3>Kasım ayı etkinlik takvimi yayında!</h3>
                     <p>Mum Atölyesi, Quiz Night, Anıtkabir ziyareti, Kariyer Fuarı ve Konseptli Oyun Gecesi bu ay bizi bekliyor.</p>
                     <a href="etkinlikler.html">Etkinliklere göz at →</a>
                 </article>
@@ -98,7 +98,7 @@
                 <article id="sspler-duyuru" data-kategori="ssp">
                     <p><time datetime="2026-10-25">25.10.2026</time> · SSP</p>
                     <h3>Bu dönemin sosyal sorumluluk projeleri açıklandı</h3>
-                    <p>Meşaleden Mektup Var, Meşaleden Doğaya, Barınak Ziyaretleri ve Doğaçlama Tiyatro  ekiplerine katılabilirsiniz.</p>
+                    <p>Meşaleden Mektup Var, Doğaçlama Tiyatro, Meşaleden Doğaya ve Barınak Ziyaretleri ekiplerine katılabilirsiniz.</p>
                     <a href="sspler.html#aktif-projeler">SSPler →</a>
                 </article>
                  
@@ -113,12 +113,53 @@
                 
                 <br>
 
+                <article id="genel-kurul-duyuru" data-kategori="etkinlik">
+                    <p><time datetime="2026-10-18">18.10.2026</time> · Etkinlik </p>
+                    <h3>1. Genel Kurul 25 Ekim'de!</h3>
+                    <p>TEB Ankara ailesi olarak 2026-2027 döneminin 1. Genel Kurulunda TED Üniversitesi Ahmet Ersan Konferans Salonu'nda bir araya geliyoruz. </p>
+                    <a href="etkinlikler.html#1.GK">Etkinlik detayları →</a>
+                </article>
+
+                <br>
+
                 <article id="bys-güncelleme" data-kategori="hatirlatma">
                     <p> <time datetime="2026-09-01">01.09.2026</time> · Hatırlatma</p>
                     <h3>TED BYS bilgi güncelleme ve belge yükleme</h3>
                     <p><a href="https://bys.ted.org.tr/" target="_blank">Ted Burs Yönetim Sistemi (BYS)</a> üzerinden kişisel ve banka bilgilerinizi güncellemeyi, e-Devlet üzerinden alacağınız güncel öğrenci belgesi ve transkriptinizi sisteme yüklemeyi unutmayınız.</p>
                 </article>
             </section>
+
+            <br>
+
+            <aside id="duyuru-yonetimi">
+                <h2>Duyuru Ekle</h2>
+                <p>Bu alan demodur. Eklenen duyurular yalnızca bu tarayıcıda(localStorage) saklanır.</p>
+
+                <form id="duyuru-formu">
+                    <div>
+                        <label for="duyuru-baslik">Başlık</label>
+                        <input id="duyuru-baslik" name="baslik" type="text" maxlength="100">
+                    </div>
+
+                    <div>
+                        <label for="duyuru-kategori">Kategori</label>
+                        <select id="duyuru-kategori" name="kategori">
+                            <option value="" disabled selected>Seçiniz</option>
+                            <option value="hatirlatma">Hatırlatma</option>
+                            <option value="topluluk">Topluluk</option>
+                            <option value="etkinlik">Etkinlik</option>
+                            <option value="ssp">SSP</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="duyuru-metin">Metin</label>
+                        <textarea id="duyuru-metin" name="metin" rows="5" maxlength="500"></textarea>
+                    </div>
+
+                    <button type="submit">Duyuruyu ekle</button>
+                </form>
+            </aside>
         </div>
 
         
