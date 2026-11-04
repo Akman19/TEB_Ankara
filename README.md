@@ -4,6 +4,8 @@ Web sitesi haftalık videolar drive linki: https://drive.google.com/drive/folder
 
 Site sadece HTML, CSS ve JavaScript ile yazılıyor; sunucu yok. Tüm sayfalarda aynı header ve footer bulunuyor.
 
+Depoyu indirin, klasörü VS Code’da açın, index.html’ye sağ tıklayıp Open with Live Server deyin.”
+
 Ana Sayfa (index.html)
 
 Header
