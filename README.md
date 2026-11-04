@@ -9,7 +9,7 @@ Ana Sayfa (index.html)
 Header
 
 Logo → Ana sayfaya döner
-Menü: Ana sayfa · Etkinlikler · SSPler · Sponsorlar & Paydaşlar · Hakkımızda · Kart → her biri kendi sayfasına gider
+Menü: Ana sayfa · Etkinlikler · SSPler · Sponsorlar & Paydaşlar · Hakkımızda · İletişim → her biri kendi sayfasına gider
 
 Main
 
@@ -29,7 +29,7 @@ Destekçilerimiz: Bu dönemin sponsorları
 
 Footer
 
-Sayfalar: Duyurular · Etkinlikler · SSPler · Sponsorlar & Paydaşlar · Hakkımızda · Kart
+Sayfalar: Duyurular · Etkinlikler · SSPler · Sponsorlar & Paydaşlar · Hakkımızda · Yönetim Kurulları
 Bizi takip edin: Instagram · LinkedIn · TikTok → yeni sekmede açılır
 İletişim:
 E-posta → ziyaretçinin e-posta uygulamasını açar
@@ -37,12 +37,12 @@ E-posta → ziyaretçinin e-posta uygulamasını açar
 Başa dön → sayfanın en üstüne çıkar
 Diğer sayfalar
 
-İçerikleri doldukça bu bölüm genişleyecek.
+
 
 etkinlikler.html → Yaklaşan ve geçmiş etkinlikler, aylık takvim
 sspler.html → Sosyal sorumluluk projeleri
 sponsorlar_paydaslar.html → Destekçiler ve iş birlikleri
 hakkimizda.html → Topluluk, yönetim kurulu, komiteler
-kart.html → Dijital üye kartı demosu
 duyurular.html → Tüm duyurular
-iletisim.html → E-posta, sosyal medya, iletişim form
+yönetim_kurulları.html → Aktif ve Geçmiş Yönetim kurulları listesi
+iletisim.html → E-posta, sosyal medya, iletişim formu
