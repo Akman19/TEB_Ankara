@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEB Ankara</title>
-
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
         <a href="index.html">
-            <img src="img/logo_yuvarlak.png" alt="TEB Ankara logosu" width="100">
+            <img src="img/logo_yuvarlak.png" alt="TEB Ankara logosu">
         </a>
 
-        <p>TEB ANKARA</p>
-        <p>Tam Eğitim Burslu Öğrenciler Ankara Bölgesi</p>
+        <div class="header-yazi">
+            <p>TEB ANKARA</p>
+            <p>Tam Eğitim Burslu Öğrenciler Ankara Bölgesi</p>
+        </div>
 
-         <nav>
-            <a href="index.html">Ana sayfa</a>
+        <nav>
+            <a href="index.html" aria-current="page">Ana sayfa</a>
             <a href="etkinlikler.html">Etkinlikler</a>
             <a href="sspler.html">SSPler</a>
             <a href="sponsorlar_paydaslar.html">Sponsorlar &amp; Paydaşlar</a>
@@ -27,12 +30,13 @@
         </nav>
     </header>
 
-    <hr>
+    
 
     <main>
         <div id="giris">
             <section id="baslik"> 
                 <p>TÜRK EĞİTİM DERNEĞİ · TAM EĞİTİM BURSLU ÖĞRENCİLER ANKARA BÖLGESİ</p>            
+                
                 <h1>BİRLİKTE BÜYÜYEN BİR TOPLULUK</h1>
 
                 <p>
@@ -43,16 +47,12 @@
                 <a href="hakkimizda.html">Hakkımızda</a>
             </section>
 
-            <br>
-
             <aside id="toplu-foto">
-                <img src="img/teb_toplu_foto.JPG" alt="TEB Ankara Toplu Fotoğraf" width="300">
+                <img src="img/teb_toplu_foto.JPG" alt="TEB Ankara Toplu Fotoğraf">
             </aside>
         </div>
         
-        <hr>
-
-        <div>
+        <div id="ana-icerik">
             <section id="duyurular">
                 <h2>DUYURULAR</h2>
                 <a href="duyurular.html">Tüm duyurular→</a>
@@ -63,7 +63,7 @@
                     <p>TED Ankara Koleji Mezunlar Derneğinin davetiyle Kariyer Fuarı'nda yerimizi alıyoruz. Farklı sektörlerden kurum ve temsilcilerle tanışmak, yeni bağlantılar kurmak ve kariyer fırsatlarını keşfetmek isteyen herkesi bekleriz.</p>
                 </article>
 
-                <article id="bilgi-güncelleme" data-kategori="hatirlatma">
+                <article id="bilgi-guncelleme" data-kategori="hatirlatma">
                     <p><time datetime="2026-10-30">30.10.2026</time> · Hatırlatma</p>
                     <h3>Bilgi formunun doldurulması!</h3>
                     <p>TEB Ankara Bölge WhatsApp grubunda paylaşılan bilgi formunu, 5 Kasım Perşembe günü saat 12.00'ye kadar doldurmayı unutmayınız.</p>
@@ -75,8 +75,6 @@
                     <p>Mum Atölyesi, Quiz Night, Anıtkabir ziyareti, Kariyer Fuarı ve Konseptli Oyun Gecesi bu ay bizi bekliyor.</p>
                 </article>
             </section>
-            
-            <br>
 
             <aside id="etkinlik">
                 <section id="siradaki-etkinlik">
@@ -101,7 +99,7 @@
             </aside>
         </div>
 
-        <hr>
+        
 
         <section id="sosyal-sorumluluk-projeleri">
             <h2>SOSYAL SORUMLULUK PROJELERİMİZ</h2>
@@ -123,80 +121,82 @@
                 <p>Hayvan barınaklarını ziyaret ederek mama ve temel ihtiyaç desteği sağlıyor, can dostlarımızla vakit geçirerek onların yaşam koşullarına katkıda bulunuyoruz.</p>
             </article> 
         </section>
-        
-        <hr>
 
         <section id="sponsorlar-paydaslar">
             <h2>DESTEKÇİLERİMİZ</h2>
             <a href="sponsorlar_paydaslar.html">Sponsorlar &amp; Paydaşlar→</a>
 
-            <br>
             <figure>
-                <img src="img/logolar/yves_logo.jpg" alt="Yves Rocher logo" height="100">
+                <img src="img/logolar/yves_logo.jpg" alt="Yves Rocher logo">
                 <figcaption>Yves Rocher</figcaption>
             </figure>
             <figure>
-                <img src="img/logolar/bons_logo.jfif" alt="Bon's Coffee &amp; More logo" height="100">
+                <img src="img/logolar/bons_logo.jfif" alt="Bon's Coffee &amp; More logo">
                 <figcaption>Bon's Coffee &amp; More</figcaption>
             </figure>
             <figure>
-                <img src="img/logolar/Coffeemania_logo.jfif" alt="Coffeemania Next-Bahçelievler logo" height="100">
+                <img src="img/logolar/Coffeemania_logo.jfif" alt="Coffeemania Next-Bahçelievler logo">
                 <figcaption>Coffeemania Next-Bahçelievler</figcaption>
             </figure>
             <figure>
-                <img src="img/logolar/hatayca_logo.png" alt="Hatayca-Cebeci logo" height="100">
+                <img src="img/logolar/hatayca_logo.png" alt="Hatayca-Cebeci logo" >
                 <figcaption>Hatayca-Cebeci</figcaption>
             </figure>
             <figure>
-                <img src="img/logolar/tedü_logo.png" alt="TED Üniversite logo" height="100">
+                <img src="img/logolar/tedu_logo.png" alt="TED Üniversite logo">
                 <figcaption>TED Üniversite</figcaption>
             </figure>
             <figure>
-                <img src="img/logolar/ted_fed_logo.png" alt="TED-FED logo" height="100">
+                <img src="img/logolar/ted_fed_logo.png" alt="TED-FED logo" >
                 <figcaption>TED-FED</figcaption>
             </figure>
             <figure>
-                <img src="img/logolar/ted_ank_kolej_md.jfif" alt="TED Ankara Koleji Mezunlar Derneği logo" height="100">
+                <img src="img/logolar/ted_ank_kolej_md.jfif" alt="TED Ankara Koleji Mezunlar Derneği logo">
                 <figcaption>TED Ankara Koleji Mezunlar Derneği</figcaption>
             </figure>
         </section>
     </main>
     
-    <hr>
 
     <footer>
-        <img src="img/logo_yuvarlak.png" alt="TEB Ankara logosu" width="80">
-        <p>TEB Ankara</p>
-        <p>Türk Eğitim Derneği Tam Eğitim Burslu Öğrenciler Ankara Bölgesi</p>
+         <footer>
+        <div class="footer-ust">
+            <div class="footer-marka">
+                <img src="img/logo_yuvarlak.png" alt="TEB Ankara logosu">
+                <p>TEB Ankara</p>
+                <p>Türk Eğitim Derneği Tam Eğitim Burslu Öğrenciler Ankara Bölgesi</p>
+            </div>
 
-        <nav>
-            <h2>Sayfalar</h2>
-            <a href="duyurular.html">Duyurular</a>
-            <a href="etkinlikler.html">Etkinlikler</a>
-            <a href="sspler.html">SSPler</a>
-            <a href="sponsorlar_paydaslar.html">Sponsorlar &amp; Paydaşlar</a>
-            <a href="hakkimizda.html">Hakkımızda</a>
-            <a href="yonetim_kurullari.html">Yönetim Kurulları</a>
-            
-        </nav>
+            <nav>
+                <h2>Sayfalar</h2>
+                <a href="duyurular.html">Duyurular</a>
+                <a href="etkinlikler.html">Etkinlikler</a>
+                <a href="sspler.html">SSPler</a>
+                <a href="sponsorlar_paydaslar.html">Sponsorlar &amp; Paydaşlar</a>
+                <a href="hakkimizda.html">Hakkımızda</a>
+                <a href="yonetim_kurullari.html">Yönetim Kurulları</a>
+                
+            </nav>
 
-        <section id="sosyal-medya">
-            <h2>Bizi takip edin</h2>
-            <a href="https://www.instagram.com/tebankara/" target="_blank">Instagram · @tebankara</a>
-            <br>
-            <a href="https://www.linkedin.com/company/teb-ankara" target="_blank">LinkedIn · @teb-ankara</a>
-            <br>
-            <a href="https://www.tiktok.com/@tebankara" target="_blank">TikTok · @tebankara</a>
-        </section>
+            <section id="sosyal-medya">
+                <h2>Bizi takip edin</h2>
+                <a href="https://www.instagram.com/tebankara/" target="_blank">Instagram · @tebankara</a>
+                
+                <a href="https://www.linkedin.com/company/teb-ankara" target="_blank">LinkedIn · @teb-ankara</a>
+                
+                <a href="https://www.tiktok.com/@tebankara" target="_blank">TikTok · @tebankara</a>
+            </section>
 
-        <section id="iletisim">
-            <h2>İletişim</h2>
-            <a href="mailto:ankarateb@gmail.com" target="_blank">E-posta: ankarateb@gmail.com</a>
-            <p>Sorularınız, iş birliği ve sponsorluk teklifleriniz için bize ulaşın.</p>
-            <a href="iletisim.html">İletişim Formu→</a>
-        </section>
+            <section id="iletisim">
+                <h2>İletişim</h2>
+                <p>Sorularınız, iş birliği ve sponsorluk teklifleriniz için bize ulaşın.</p>
+                <a href="mailto:ankarateb@gmail.com" target="_blank">E-posta: ankarateb@gmail.com</a>
+                <a href="iletisim.html">İletişim Formu→</a>
+            </section>
+        </div>
+        <p class="footer-alt">©2026 TEB Ankara </p>
+    </footer>
 
-        <p>©2026 TEB Ankara · <a href="#">Başa dön↑</a></p>
     </footer>
 
 </body>
